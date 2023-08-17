@@ -10,7 +10,7 @@ User Registration and Authentication System
 
 ## Description
 
-This project aims to create a comprehensive User Registration and Authentication system with movies listing, including API endpoints for registration, login, data retrieval, and more. It provides both backend APIs and frontend components using React.
+This project aims to create a comprehensive User Registration and Authentication system with movie listing, including API endpoints for registration, login, data retrieval, and more. It provides both backend APIs and frontend components using React.
 
 ## Features
 
@@ -20,8 +20,8 @@ This project aims to create a comprehensive User Registration and Authentication
   - JWT-based authentication for login
 
 - Data Retrieval and Filtering API
-  - API endpoint to retrieve movie data from database
-  - Filtering, sorting, and pagination and for data
+  - API endpoint to retrieve movie data from the database
+  - Filtering, sorting, and pagination for data
 
 - Authorization Middleware
   - Middleware to check user roles and permissions
@@ -37,7 +37,7 @@ This project aims to create a comprehensive User Registration and Authentication
     - Visualization of data using charts
   - Data Listing and Filtering UI
     - UI to display and filter data retrieved from the backend API
-    - Sorting and pagination and of data
+    - Sorting and pagination of data
 
 - State Management
   - Setup of Redux for managing global application state
@@ -46,15 +46,15 @@ This project aims to create a comprehensive User Registration and Authentication
   - Form validation for user input in registration and login forms
 
 - Styling and Responsiveness
-  - Tailwind css for visually appealing and responsive user interface
+  - Tailwind CSS for visually appealing and responsive user interface
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/yourusername/your-project.git](https://github.com/jithinjoshi/movie-listing-app`
+1. Clone the repository: `git clone https://github.com/jithinjoshi/movie-listing-app`
 2. Install dependencies for both the backend and frontend:
 3. Create a `.env` file in the `backend` directory and add the following environment variables:
-   ```env
-DB=your_database_connection_string example"mongodb://localhost:27017/Auth"
+   ```env DB=your_database_connection_string example"mongodb://localhost:27017/Auth"
 ACCESSTOKEN_SECRET=your_jwt_access_token
 REFRESHTOKEN_SECRET=your_jwt_refresh_token
 PORT=port for the project
+
