@@ -53,8 +53,8 @@ This project aims to create a comprehensive User Registration and Authentication
 1. Clone the repository: `git clone https://github.com/jithinjoshi/movie-listing-app`
 2. Install dependencies for both the backend and frontend:
 3. Create a `.env` file in the `backend` directory and add the following environment variables:
-   ```env DB=your_database_connection_string example"mongodb://localhost:27017/Auth"
+ ```env
+DB=your_database_connection_string
 ACCESSTOKEN_SECRET=your_jwt_access_token
 REFRESHTOKEN_SECRET=your_jwt_refresh_token
-PORT=port for the project
-
+PORT=port_for_the_project
